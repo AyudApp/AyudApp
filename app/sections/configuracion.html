@@ -1,0 +1,66 @@
+<section id="configuracion" data-transition="slide">
+    <header data-title="Configuración">
+        <nav>
+            <a href="#back" data-router="section" data-icon="home"></a>
+        </nav>
+    </header>
+
+   
+    <article id="configuracion-normal" class="active scroll">
+        <form>
+            <fieldset data-icon="search">
+                <input type="search" placeholder="Buscar iniciativa..."/>
+            </fieldset>
+        </form>
+        <form  class="margined">
+            <div class="six columns">
+                <label>Usuario</label>
+                <input type="text" placeholder="Manuel San Juan"/>
+            </div>
+            <div class="three columns right">
+                <label>Contraseña</label>
+                <input type="password" value="value" disabled/>
+            </div>
+
+            <label>Selecciona tus preferencias</label>
+            <label class="select">
+                <select class="custom">
+                    <option value="1">Difusión</option>
+                    <option value="2">Localización de información</option>
+                    <option value="3">Interlocutor via Chat</option>
+                    <option value="4">Traducción e interpretación</option>                    
+                </select>
+            </label>
+
+            <label>Nivel de compromiso</label>
+            <div id="progress-normal" data-progress="25%"></div>
+            <!--
+            <label>Range</label>
+            <input type="range" placeholder="type your name" />
+            -->
+            <label>Habilitar notificaciones</label>
+            <br/>
+            <input type="range" min="0" max="1" class="checkbox active" value="1">
+            
+
+            <ul class="active list scroll">
+	            <li class="anchor">Iniciativas activas</li>
+	            <li class="accept">
+	                <strong>Alia2</strong>
+	                <small>Protección del menor en Internet</small>
+	            </li>
+	            <li class="cancel">
+	                <strong>Institución humanitaria de carácter voluntario y de interés público</strong>
+	                <small>Cruz Roja</small>
+	            </li>
+	            <li class="secondary">
+	                <strong>WWF Adena</strong>
+	                <small>Protección de los animales</small>
+	            </li>
+	        </ul>
+
+
+            <a href="#configuracion-normal" data-router="article" class="button anchor accept" data-label="Guardar"></a>
+        </form>
+    </article>
+</section>
